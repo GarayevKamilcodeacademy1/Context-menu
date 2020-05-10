@@ -1,0 +1,60 @@
+.container .row .box {
+  margin: 50px auto;
+  width: 100%;
+  height: 550px;
+  border: 1.5px solid gray;
+  border-radius: 10px;
+}
+.container .row .box .create {
+  border-radius: 10px;
+  background: white;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  width: 300px;
+  padding: 15px;
+  border: 1px solid gray;
+}
+.container .row .box .create input {
+  width: 250px;
+}
+.container .row .box .newFolder {
+  display: inline-block;
+  margin: 20px;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  text-align: center;
+}
+.container .row .box .newFolder i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.container .row .box .contextmenu {
+  background: white;
+  z-index: 5;
+  position: absolute;
+  width: 220px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 7px 7px 20px 0  gray;
+}
+.container .row .box .contextmenu ul {
+  padding: 0;
+  list-style: none;
+}
+.container .row .box .contextmenu ul li {
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+  line-height: 2.5rem;
+}
+.container .row .box .contextmenu ul li:hover {
+  background: #F1F3F4;
+}
+.container .row .box .contextmenu ul li i {
+  font-size: 20px;
+  margin-right: 10px;
+}
